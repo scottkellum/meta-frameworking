@@ -1,0 +1,46 @@
+/* line 6, ../../../../../.rvm/gems/ruby-1.9.2-p320@meta-frameworking/gems/toolkit-1.2.2/stylesheets/toolkit/_border-box.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url('/css/../behaviors/box-sizing/boxsizing.php');
+}
+
+/* line 4, ../../../../../.rvm/gems/ruby-1.9.2-p320@meta-frameworking/gems/toolkit-1.2.2/stylesheets/toolkit/_fluid-media.scss */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 21, ../../../../../.rvm/gems/ruby-1.9.2-p320@meta-frameworking/gems/color-schemer-0.2.5/stylesheets/color-schemer/_mixins.scss */
+body:before {
+  content: "";
+  display: block;
+  height: 2em;
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ff0000), color-stop(25%, #ff0000), color-stop(25%, #ff8000), color-stop(50%, #ff8000), color-stop(50%, #ff0080), color-stop(75%, #ff0080), color-stop(75%, #ff0000), color-stop(100%, #ff0000));
+  background: -webkit-linear-gradient(left, #ff0000 0%, #ff0000 25%, #ff8000 25%, #ff8000 50%, #ff0080 50%, #ff0080 75%, #ff0000 75%, #ff0000 100%);
+  background: -moz-linear-gradient(left, #ff0000 0%, #ff0000 25%, #ff8000 25%, #ff8000 50%, #ff0080 50%, #ff0080 75%, #ff0000 75%, #ff0000 100%);
+  background: -o-linear-gradient(left, #ff0000 0%, #ff0000 25%, #ff8000 25%, #ff8000 50%, #ff0080 50%, #ff0080 75%, #ff0000 75%, #ff0000 100%);
+  background: linear-gradient(left, #ff0000 0%, #ff0000 25%, #ff8000 25%, #ff8000 50%, #ff0080 50%, #ff0080 75%, #ff0000 75%, #ff0000 100%);
+  position: relative;
+  z-index: 999999999999;
+}
+
+/* line 4, ../../my-framework/_my-framework.scss */
+button {
+  font-size: 1em;
+  font-family: inherit;
+  background-color: #ff8000;
+  border: none;
+  border-radius: .2em;
+  padding: .25em .5em;
+  color: white;
+}
+/* line 12, ../../my-framework/_my-framework.scss */
+button:hover {
+  background-color: #ff8c1a;
+}
+/* line 15, ../../my-framework/_my-framework.scss */
+button:active {
+  background-color: #cc6600;
+}

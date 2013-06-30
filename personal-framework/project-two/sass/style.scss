@@ -1,0 +1,20 @@
+@import "toolkit";
+@import "singularitygs";
+@import "modular-scale";
+@import "color-schemer";
+
+@import "my-framework";
+
+$cs-color:  #fd6422;
+$cs-scheme: analogic;
+
+$primary:   cs-primary();
+$secondary: cs-secondary();
+$tertiary:  cs-tertiary();
+$quadrary:  cs-quadrary();
+
+$grids: 12;
+
+@include cs-test($primary $secondary $tertiary $quadrary);
+
+@include button($secondary);

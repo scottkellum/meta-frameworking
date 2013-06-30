@@ -1,0 +1,18 @@
+/* line 4, ../../../../../.rvm/gems/ruby-1.9.2-p320@meta-frameworking/gems/my-extension-0.0.1/stylesheets/_my-extension.scss */
+button {
+  font-size: 1em;
+  font-family: inherit;
+  background-color: #3baaff;
+  border: none;
+  border-radius: .2em;
+  padding: .25em .5em;
+  color: white;
+}
+/* line 12, ../../../../../.rvm/gems/ruby-1.9.2-p320@meta-frameworking/gems/my-extension-0.0.1/stylesheets/_my-extension.scss */
+button:hover {
+  background-color: #55b5ff;
+}
+/* line 15, ../../../../../.rvm/gems/ruby-1.9.2-p320@meta-frameworking/gems/my-extension-0.0.1/stylesheets/_my-extension.scss */
+button:active {
+  background-color: #0894ff;
+}
