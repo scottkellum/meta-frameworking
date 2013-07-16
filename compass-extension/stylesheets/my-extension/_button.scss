@@ -1,0 +1,17 @@
+$color: #238BD1 !default;
+
+button {
+  font-size: 1em;
+  font-family: inherit;
+  background-color: $color;
+  border: none;
+  border-radius: .2em;
+  padding: .25em .5em;
+  color: white;
+  &:hover {
+    background-color: lighten($color, 5%);
+  }
+  &:active {
+    background-color: darken($color, 10%);
+  }
+}

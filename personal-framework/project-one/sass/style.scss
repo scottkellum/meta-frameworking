@@ -1,3 +1,6 @@
-@import "my-framework";
+// @import "normalize";
+// @import "button";
 
-@include button(#3baaff);
+body {
+  padding: 0 1em;
+}

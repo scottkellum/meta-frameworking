@@ -1,18 +1,1 @@
-/* line 4, ../../my-framework/_my-framework.scss */
-button {
-  font-size: 1em;
-  font-family: inherit;
-  background-color: #3baaff;
-  border: none;
-  border-radius: .2em;
-  padding: .25em .5em;
-  color: white;
-}
-/* line 12, ../../my-framework/_my-framework.scss */
-button:hover {
-  background-color: #55b5ff;
-}
-/* line 15, ../../my-framework/_my-framework.scss */
-button:active {
-  background-color: #0894ff;
-}
+body { padding: 0 1em; }
