@@ -1,5 +1,0 @@
-source :rubygems
-
-gem 'compass',            ">= 0.12.2" 
-gem 'toolkit',            ">= 1.2.2" 
-gem 'modular-scale',      ">= 1.0.6" 
