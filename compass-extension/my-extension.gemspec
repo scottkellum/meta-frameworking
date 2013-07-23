@@ -3,7 +3,7 @@ require './lib/my-extension'
 
 Gem::Specification.new do |s|
   # Release Specific Information
-  #  Replace MyExtension with the name you used in your extension.rb
+  #  Replace MyExtension with the name you used in your my-extension.rb
   #   in the mdodule with version and date.
   s.version = MyExtension::VERSION
   s.date = MyExtension::DATE
@@ -39,10 +39,10 @@ Gem::Specification.new do |s|
   s.files += Dir.glob("lib/**/*.*")
 
   # Sass Files
-  # s.files += Dir.glob("stylesheets/**/*.*")
+  s.files += Dir.glob("stylesheets/**/*.*")
 
   # Template Files
-  # s.files += Dir.glob("templates/**/*.*")
+  s.files += Dir.glob("templates/**/*.*")
 
   # Gem Bookkeeping
   # Versions of Ruby and Rubygems you require

@@ -11,7 +11,7 @@ extension_path = File.expand_path(File.join(File.dirname(__FILE__), ".."))
 Compass::Frameworks.register('my-extension', :path => extension_path)
 
 # Version and date of version for your Compass extension.
-# Replace Extension with the name of your extension
+# Replace MyExtension with the name of your extension
 #  Letters, numbers, and underscores only
 #  Version is a number. If a version contains alphas, it will be created as
 #    a prerelease version
