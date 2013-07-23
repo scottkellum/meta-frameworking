@@ -1,6 +1,6 @@
 # Require any additional compass plugins here.
-# load "../compass-extension"
-require "my-extension"
+load "../compass-extension"
+# require "my-extension"
 
 # Set this to the root of your project when deployed:
 http_path = "/"
