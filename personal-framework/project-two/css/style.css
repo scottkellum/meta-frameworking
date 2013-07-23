@@ -116,8 +116,8 @@ textarea { overflow: auto; /* 1 */ vertical-align: top; /* 2 */ }
 /** Remove most spacing between table cells. */
 table { border-collapse: collapse; border-spacing: 0; }
 
-button { font-size: 1em; font-family: inherit; background-color: red; border: none; border-radius: .2em; padding: .25em .5em; color: white; }
-button:hover { background-color: #ff1a1a; }
-button:active { background-color: #cc0000; }
+button { font-size: 1em; font-family: inherit; background-color: #238bd1; border: none; border-radius: .2em; padding: .25em .5em; color: white; }
+button:hover { background-color: #3198dd; }
+button:active { background-color: #1c6ea5; }
 
 body { padding: 0 1em; }
