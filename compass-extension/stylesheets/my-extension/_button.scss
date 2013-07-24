@@ -1,17 +1,16 @@
-$color: #238BD1 !default;
+$button-color: #238BD1 !default;
 
 button {
-  font-size: 1em;
-  font-family: inherit;
-  background-color: $color;
+  background-color: $button-color;
+  color: white;
   border: none;
+  font-size: 1em;
   border-radius: .2em;
   padding: .25em .5em;
-  color: white;
   &:hover {
-    background-color: lighten($color, 5%);
+    background-color: lighten($button-color, 5%);
   }
   &:active {
-    background-color: darken($color, 10%);
+    background-color: darken($button-color, 10%);
   }
 }
