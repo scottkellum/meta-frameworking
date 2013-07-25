@@ -1,0 +1,16 @@
+$button-color: red !default;
+
+button {
+	background: $button-color;
+	color: white;
+	font-size: 2em;
+	border: none;
+	padding: .5em 1em;
+	border-radius: 1em;
+	&:hover {
+		background: lighten($button-color, 20%);
+	}
+	&:active {
+		background: darken($button-color, 20%);
+	}
+}

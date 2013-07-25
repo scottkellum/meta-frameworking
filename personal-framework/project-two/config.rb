@@ -1,5 +1,6 @@
 # Require any additional compass plugins here.
 load "my-framework"
+require "modular-scale"
 
 
 # Set this to the root of your project when deployed:

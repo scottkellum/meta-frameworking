@@ -1,4 +1,7 @@
+$button-color: green;
+
 @import "my-framework/button";
+@import "modular-scale";
 
 body {
   padding: 0 1em;
@@ -7,18 +10,25 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
+  margin: ms(1) 0;
 }
 
 h1 {
+	font-size: ms(4);
 }
 h2 {
+	font-size: ms(3);
 }
 h3 {
+	font-size: ms(2);
 }
 h4 {
+	font-size: ms(1);
 }
 h5 {
+	font-size: ms(0);
   text-transform: uppercase;
 }
 h6 {
+	font-size: ms(0);
 }

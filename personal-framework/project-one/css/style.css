@@ -1,5 +1,5 @@
-button { background: purple; color: white; border: none; padding: .5em 1em; border-radius: 1em; font-size: 1em; border: 3px solid green; }
-button:hover { background: #e600e6; }
-button:active { background: #4d004d; }
+button { background: blue; color: white; font-size: 2em; border: none; padding: .5em 1em; border-radius: 1em; }
+button:hover { background: #6666ff; }
+button:active { background: #000099; }
 
 body { padding: 0 1em; }
